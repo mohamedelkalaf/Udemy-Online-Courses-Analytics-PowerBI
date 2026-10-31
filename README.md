@@ -7,9 +7,11 @@ The report is designed as a full web-like analytical application featuring **4 n
 
 ---
 
-## 📂 Dataset & Database Access
-The raw dataset and project files used in this analysis can be accessed via Google Drive:
-* 🔗 **[Download Dataset & Project Files from Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+## 📂 Repository Contents & Dataset
+All project assets, including the raw dataset and the interactive Power BI report, are included directly in this repository:
+* 📊 **Dataset File:** Included in the repository folder (CSV/Excel format containing the raw Udemy courses records).
+* 📈 **Power BI Report (`.pbix`):** The complete interactive dashboard file with all Power Query transformations, data models, and DAX measures.
+* 🖼️ **Dashboard Screenshots:** `d1.png` (Overview), `d2.png` (Price Analysis), and `d3.png` (Courses Details).
 
 ---
 
@@ -63,6 +65,13 @@ The raw dataset and project files used in this analysis can be accessed via Goog
   * App-like multi-page navigation bar (`Home`, `Overview`, `Price Analysis`, `Courses Details`) and Reset/Back buttons.
   * Scatter plots analyzing correlation between `Price`, `Duration_Min`, and `Subscribers`.
   * Treemaps, Donut charts, and detailed tabular views with Free/Paid slicers.
+
+---
+
+## 🚀 How to Run Locally
+1. Clone or download this repository as a ZIP file.
+2. Open the `.pbix` file in **Microsoft Power BI Desktop**.
+3. If prompted to update the data source path, point Power Query to the dataset file included in this repository folder.
 
 ---
 
